@@ -1,0 +1,55 @@
+/* Estilo para a lista não ordenada dentro da navegação */
+nav ul {
+    /* Define a exibição da lista como um contêiner flexível */
+    display: flex;
+    /* Define a direção dos itens flexíveis em linha horizontal */
+    flex-direction: row;
+    /* Remove margens padrão da lista */
+    margin: 0;
+    /* Remove padding padrão da lista */
+    padding: 0;
+}
+
+/* Estilo para os itens de lista dentro da navegação */
+nav ul li {
+    /* Remove o marcador de lista padrão */
+    list-style: none;
+    /* Define a altura dos itens de lista */
+    height: 125px;
+    /* Define o padding à direita dos itens de lista */
+    padding: 0 25px 0 0;
+}
+
+/* Efeito de hover para os itens de lista */
+nav ul li:hover {
+    /* Muda a cor de fundo dos itens de lista ao passar o mouse */
+    background-color: #444444;
+}
+
+/* Estilo para o contêiner de navegação */
+nav {
+    /* Define a altura da navegação */
+    height: 125px;
+    /* Define a largura máxima da navegação */
+    max-width: 1480px;
+    /* Define a largura mínima da navegação */
+    min-width: 1080px;
+    /* Define a cor de fundo da navegação */
+    background-color: black;
+}
+
+/* Estilo para a imagem do logotipo dentro da navegação */
+nav #logo img {
+    /* Define a altura da imagem do logotipo */
+    height: 75px;
+    /* Define a margem ao redor da imagem do logotipo */
+    margin: 25px;
+    /* Faz a imagem flutuar à esquerda */
+    float: left;
+}
+
+/* Estilo para o menu principal dentro da navegação */
+nav #mainMenu {
+    /* Faz o menu principal flutuar à direita */
+    float: right;
+}
